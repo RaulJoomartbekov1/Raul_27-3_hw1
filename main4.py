@@ -1,0 +1,11 @@
+i1 = input('Имя')
+i2 = input("Фамилия")
+i3 = input("Отчество")
+l = int(input('Возраст'))
+print('Добрый день', i2, i1, i3, 'вам', l, 'лет')
+
+first_name = input('Имя')
+middle_name = input("Отчество")
+last_name = input("Фамилия")
+age = int(input('Возраст'))
+print(f'Добрый день, {last_name} {first_name} {middle_name}\n Вам {age} лет')
